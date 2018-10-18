@@ -3,7 +3,7 @@ package com.jdojo.reflect.test;
 import java.lang.reflect.Field;
 import java.lang.reflect.InaccessibleObjectException;
 
-public class ReflectTest {
+public class ReflectTestMain {
     public static void main(String[] args) throws ClassNotFoundException {
         // Get the Class object for the com.jdojo.reflect.Item class
         // which is in the com.jdojo.reflect module

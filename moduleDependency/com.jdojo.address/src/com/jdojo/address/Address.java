@@ -1,7 +1,7 @@
 package com.jdojo.address;
 
 public class Address {
-    private String line1 = "1111 Main Blvd.";
+    private String line = "1111 Main Blvd.";
     private String city = "Jacksonville";
     private String state = "FL";
     private String zip = "32256";
@@ -10,9 +10,9 @@ public class Address {
 
     }
 
-    public Address(String line1, String line2, String city, String state, String zip) {
+    public Address(String line, String city, String state, String zip) {
 
-        this.setLine1(line1);
+        this.setLine(line);
         this.setCity(city);
         this.setState(state);
         this.setZip(zip);
@@ -27,11 +27,11 @@ public class Address {
     }
 
     public String getLine1() {
-        return line1;
+        return line;
     }
 
-    public void setLine1(String line1) {
-        this.line1 = line1;
+    public void setLine(String line) {
+        this.line = line;
     }
 
     public String getCity() {

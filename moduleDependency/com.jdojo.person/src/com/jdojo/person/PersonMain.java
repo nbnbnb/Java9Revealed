@@ -2,7 +2,7 @@ package com.jdojo.person;
 
 import com.jdojo.address.Address;
 
-public class Main {
+public class PersonMain {
 
     public static void main(String[] args) {
 
