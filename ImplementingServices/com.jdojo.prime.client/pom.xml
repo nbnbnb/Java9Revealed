@@ -16,21 +16,22 @@
             <artifactId>com.jdojo.prime</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
-        <dependency>
-            <groupId>me.zhangjin.demos</groupId>
-            <artifactId>com.jdojo.prime.faster</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>me.zhangjin.demos</groupId>
-            <artifactId>com.jdojo.prime.generic</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-        <dependency>
-            <groupId>me.zhangjin.demos</groupId>
-            <artifactId>com.jdojo.prime.probable</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
+        <!--下面的依赖在运行时动态加载-->
+        <!--<dependency>-->
+            <!--<groupId>me.zhangjin.demos</groupId>-->
+            <!--<artifactId>com.jdojo.prime.faster</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>me.zhangjin.demos</groupId>-->
+            <!--<artifactId>com.jdojo.prime.generic</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>me.zhangjin.demos</groupId>-->
+            <!--<artifactId>com.jdojo.prime.probable</artifactId>-->
+            <!--<version>1.0-SNAPSHOT</version>-->
+        <!--</dependency>-->
     </dependencies>
 
     <build>
