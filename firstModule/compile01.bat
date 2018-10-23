@@ -22,5 +22,4 @@ goto jp
 @echo on
 DEL /F /A /Q mods\*.*
 javac -d mods\com.jdojo.intro --module-version 1.0 src\com.jdojo.intro\module-info.java src\com.jdojo.intro\com\jdojo\intro\Welcome.java
-javap mods\com.jdojo.intro\module-info.class
 cmd

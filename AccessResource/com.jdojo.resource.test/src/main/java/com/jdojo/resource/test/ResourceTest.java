@@ -1,6 +1,8 @@
 package com.jdojo.resource.test;
 
 import com.jdojo.exported.AppResource;
+import com.sun.nio.file.ExtendedCopyOption;
+import sun.misc.SignalHandler;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,9 +12,13 @@ import java.nio.file.FileSystem;
 import java.nio.file.FileSystems;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.util.Base64;
 
 public class ResourceTest {
     public static void main(String[] args) throws Exception {
+
+        ExtendedCopyOption ee = null;
+
         // A list of resources
         String[] resources = {
                 "java/lang/Object.class",
